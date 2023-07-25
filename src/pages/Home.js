@@ -6,7 +6,7 @@ const Home = () => {
         <div>
             <div className="container">
                 <div className="home-head">
-                    <h1>Welcome to Income &amp; Expense Tracker</h1> 
+                    <h1>Track Your Income &amp; Expense </h1> 
                     
                     <Link to="/income">Income</Link >
                     <Link to="/expense">Expense</Link >
