@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="header-area">
       <div className='inner-cont'>
-        <h5>IE Tracker</h5>
+        <h5>Income & Expense</h5>
         <nav>
           <ul>
             <li>
