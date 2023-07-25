@@ -1,0 +1,294 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+i,
+button,
+strong,
+u,
+sub,
+sup,
+span,
+textarea,
+table tr td,
+select,
+input {
+  padding: 0;
+  margin: 0;
+}
+
+select:focus-within,
+textarea:focus-within,
+input:focus-within,
+.form-control:focus-within,
+button:focus-within {
+  box-shadow: none !important;
+}
+
+a,
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border: none;
+  display: block;
+  width: 100%;
+  height: 1px;
+}
+
+h1,
+h2 {
+  font-size: 3.5rem;
+  line-height: 100%;
+}
+
+h3,
+h4 {
+  font-size: 2.6rem;
+  line-height: 100%;
+}
+
+h5,
+h6 {
+  font-size: 2rem;
+  line-height: 100%;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 110%;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+.headerSection {
+  background-color: aliceblue;
+  padding-top: 1rem;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 100%;
+}
+
+.pa-y4 {
+  padding: 2rem 0;
+}
+
+
+.header-area {
+  padding: 1rem 0;
+  background-color: blueviolet;
+}
+
+.inner-cont {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-area h5 {
+  font-family: cursive;
+  color: #fff;
+}
+
+.header-area nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-area nav ul li a {
+  display: block;
+  margin-left: 1.8rem;
+  font-size: 1rem;
+  color: #fff;
+  padding: .8rem 1.2rem;
+  border-radius: .5rem;
+}
+
+
+.header-area nav ul li a.active {
+  background-color: #fff;
+  color: blueviolet;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.home-head {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.home-head a{
+  display: inline-block; 
+  background-color: blueviolet;
+  padding: 12px 2rem;
+  border: 0;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+   margin-top: 2rem;
+}
+
+.home-head a:last-child{
+  margin-left: 1rem;
+  background-color: chocolate;
+}
+
+.home-head h2,
+.home-head h1 {
+  font-size: 2rem;
+
+}
+
+.d-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.box-list {
+
+  margin: 2.5rem;
+  margin-top: 3rem;
+}
+
+.box-list h5 {
+  font-size: 1.5rem;
+}
+
+.box-list ul {
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: .5rem;
+  margin-top: 1rem;
+}
+
+.box-list ul li {
+  background-color: cadetblue;
+  padding: 10px 1.5rem;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.box-list ul li span {
+  display: block;
+  text-align: right;
+  margin-top: .5rem;
+  font-weight: 700;
+}
+
+.box-list ul li:last-child {
+  margin-bottom: 0;
+}
+
+.exp-list ul li {
+  background-color: brown;
+}
+
+h4 {
+  font-size: 1.8rem;
+  margin: 1rem;
+  margin-top: 2rem;
+}
+
+.grn {
+  color: green;
+}
+
+.red {
+  color: tomato;
+}
+
+.form-wrap form{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  background-color: azure;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 4rem;
+}
+
+.form-wrap form .form-group{
+  margin-bottom: 1rem;
+}
+
+.form-wrap form .form-group label{
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.form-wrap form .form-group input{
+  font-size: 1rem;
+  height: 2.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding-left: 1rem;
+  display: block;
+  width: 100%;
+}
+
+.form-wrap form .form-submit .btn-submit{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background-color: blueviolet;
+  padding: 12px 2rem;
+  border: 0;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-wrap form .form-submit .btn-submit:hover{
+  background-color: blue;
+}
+
+.bg-2{
+  background-color: cornsilk!important;
+}
