@@ -111,7 +111,7 @@ h1 {
 
 .header-area {
   padding: 1rem 0;
-  background-color: blueviolet;
+  background-color: #C4DFDF;
 }
 
 .inner-cont {
@@ -124,7 +124,7 @@ h1 {
 
 .header-area h5 {
   font-family: cursive;
-  color: #fff;
+  color: black;
 }
 
 .header-area nav ul {
@@ -145,7 +145,7 @@ h1 {
 
 .header-area nav ul li a.active {
   background-color: #fff;
-  color: blueviolet;
+  color: #C4DFDF;
 }
 
 .container {
@@ -160,7 +160,7 @@ h1 {
 
 .home-head a{
   display: inline-block; 
-  background-color: blueviolet;
+  background-color: #C4DFDF;
   padding: 12px 2rem;
   border: 0;
   border-radius: 10px;
@@ -172,7 +172,7 @@ h1 {
 
 .home-head a:last-child{
   margin-left: 1rem;
-  background-color: chocolate;
+  background-color: #F8F6F4;
 }
 
 .home-head h2,
